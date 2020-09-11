@@ -14,7 +14,7 @@ buildscript {
 repositories {
     jcenter()
     maven {
-        url 'https://jitpack.io'
+        url 'https://www.jitpack.io'
         content {
             // Use Jitpack only for AndroidPdfViewer; the rest is hosted at jcenter.
             includeGroup "com.github.TalbotGooday"
