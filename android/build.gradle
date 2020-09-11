@@ -58,7 +58,7 @@ android {
 }
 
 dependencies {
-    implementation "com.facebook.react:react-native:${_reactNativeVersion}"
+    implementation "com.facebook.react:react-native:+"
     // NOTE: The original repo at com.github.barteksc is abandoned by the maintainer; there will be no more updates coming from that repo.
     //       It was taken over by com.github.TalbotGooday; from now on please use this repo until (if ever) the Barteksc repo is resumed.
     implementation 'com.github.TalbotGooday:AndroidPdfViewer:3.1.0-beta.3'
